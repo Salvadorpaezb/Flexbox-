@@ -62,19 +62,16 @@ ul {
 
 .navbar ul {
     display: flex;
-
 }
 
 .navbar ul li {
     margin-left: 20px;
-
 }
 
 .header {
     background-color: #0151cc;
     color: white;
     min-height: 400px;
-
 }
 
 .header h1 {
@@ -110,4 +107,17 @@ ul {
 
 .box i{
     margin-right: 10px;
+}
+
+@media(max-width: 768px) {
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
 }
